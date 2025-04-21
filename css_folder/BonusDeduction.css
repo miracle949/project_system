@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@700&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/* .right-bar {
+    all: unset;
+    margin-left: 280px;
+} */
+
+/* .right-bar{
+    background-color: #F4EFC6;
+    padding-bottom: 20px;
+    height: 0;
+} */
+
+.right-bar{
+    width: calc(100% - 280px);
+    background-color: #FFFCE5;
+    margin-left: 280px;
+}
+
+.right-bar .nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: #AF834C;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu p {
+    margin: 0px 0px 5px;
+    font-size: 13px;
+    color: #777F87;
+}
+
+.nav-bar ul.dropdown-menu.show {
+    width: 280px;
+    height: 115px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.right-bar h3{
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-bar .parent-positions {
+    padding: 20px;
+}
+
+.right-bar .bonus-box{
+    margin: 20px;
+    background-color: #F4EFC6;
+    /* padding: 20px; */
+    height: 470px;
+    border-radius: 20px;
+    /* width: 1065px; */
+    border: 1px solid rgba(0,0,0,0.1);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.right-bar .bonus-box h3{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 20px 20px 0px 20px;
+}
+
+.right-bar .bonus-box .search-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px;
+}
+
+.right-bar .bonus-box .filter select {
+    outline: none;
+    cursor: pointer;
+    background-color: #af834c;
+    color: #fffffe;
+    padding: 0px 15px;
+    font-size: 14px;
+    border: none;
+}
+
+.right-bar .bonus-box .filter span {
+    font-size: 14px;
+}
+
+
+.right-bar .bonus-box .input-group input {
+    outline: none;
+    border: none;
+    /* border: 2px solid #D3891F; */
+    background-color: #af834c;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #fffffe;
+}
+
+.right-bar .bonus-box .input-group input::placeholder {
+    color: #fffffe;
+
+}
+
+.right-bar .bonus-box .input-group .fa {
+    color: #fffffe;
+}
+
+.right-bar .bonus-box .input-group .input-group-text {
+    background-color: #af834c;
+    border: 2px solid #af834c;
+    border-right: 2px solid #fffffe;
+}
+
+.right-bar .bonus-box .table-parent{
+    margin-top: 1.3rem;
+    padding: 0px 20px 20px 20px;
+    height: 390px;
+    overflow-y: auto;
+}
+
+.right-bar .bonus-box .table-parent table thead{
+    background-color: #af834c;
+}
+
+/* .right-bar .bonus-box .table-parent table tr{
+    border: 2px solid #D3891F;
+    background: none;
+} */
+
+.right-bar .bonus-box .table-parent table th{
+    /* background: none; */
+    font-size: 15px;
+    color: #fffffe;
+    background: none;
+    text-align: left;
+    font-weight: 600;
+}
+
+.right-bar .bonus-box .table-parent table td{
+    font-size: 15px;
+    background: none;
+    border-bottom: 1px solid #D3891F;
+}
+
+.right-bar .deduction-box{
+    margin: 20px;
+    background-color: #F4EFC6;
+    height: 470px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.1);
+}
+
+.right-bar .deduction-box .search-filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-bar .deduction-box .filter span {
+    font-size: 14px;
+}
+
+
+.right-bar .deduction-box .input-group input {
+    outline: none;
+    border: none;
+    /* border: 2px solid #D3891F; */
+    background-color: #af834c;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #fffffe;
+}
+
+.right-bar .deduction-box .input-group input::placeholder {
+    color: #fffffe;
+
+}
+
+.right-bar .deduction-box .input-group .fa {
+    color: #fffffe;
+}
+
+.right-bar .deduction-box .input-group .input-group-text {
+    background-color: #af834c;
+    border: 2px solid #af834c;
+    border-right: 2px solid #fffffe;
+}
+
+
+.right-bar .deduction-box h3{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0px 0px 0px;
+}
+
+.right-bar .deduction-box .filter{
+    display: flex;
+    align-items: center;
+    margin: 14.4px 0px 0px;
+}
+
+.right-bar .deduction-box .filter form button{
+    background-color: #D3891F;
+    color: #fffffe;
+    padding: 5px 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.right-bar .deduction-box .filter h4{
+    margin: 0px 10px 0px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.right-bar .deduction-box .filter select{
+    margin: 0px 5px 0px 0px;
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    background: none;
+    /* border: 2px solid #D3891F; */
+    background-color: #af834c;
+    font-size: 14px;
+    color: #fffffe;
+    cursor: pointer;
+}
+
+.right-bar .deduction-box .filter select option{
+    font-weight: normal;
+    cursor: pointer;
+    background-color: #fffffe;
+    color: #232323;
+}
+
+.right-bar .deduction-box .table-parent{
+    margin-top: 1.3rem;
+    padding: 0px 0px 20px 0px;
+    height: 390px;
+    overflow-y: auto;
+
+    /* margin-top: 1.3rem;
+    padding: 0px 20px 20px 20px;
+    height: 390px;
+    overflow-y: auto; */
+}
+
+.right-bar .deduction-box .table-parent table thead{
+    background-color: #af834c;
+}
+
+/* .right-bar .deduction-box .table-parent table tr{
+    border: 2px solid #D3891F;
+    background: none;
+} */
+
+.right-bar .deduction-box .table-parent table th{
+    /* background: none; */
+    font-size: 14px;
+    background: none;
+    color: #fffffe;
+    text-align: left;
+    font-weight: 600;
+}
+
+.right-bar .deduction-box .table-parent table td{
+    font-size: 15px;
+    background: none;
+    border-bottom: 1px solid #D3891F;
+}
+
+.right-bar .bonus-add form button{
+    margin: 20px 20px 0px;
+    background-color: #D3891F;
+    color: #fffffe;
+    border: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.right-bar .deduction-add{
+    margin-top: 5rem;
+}
+
+.right-bar .deduction-add form button{
+    margin: 20px 20px 0px;
+    background-color: #D3891F;
+    color: #fffffe;
+    border: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.right-bar .modal .modal-content .modal-body form select{
+    width: 466px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid #D3891F;
+    padding: 0px 10px;
+}
+
+a.btn.btn-secondary.dropdown-toggle{
+    background: none;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #D3891F;
+    color: #fffffe;
+}
+
+button.dropdown-item{
+    font-size: 15px;
+}
+
+textarea[name="details_reason"] {
+    text-align: left;
+}
+

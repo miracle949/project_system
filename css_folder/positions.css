@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@700&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.right-bar{
+    width: calc(100% - 280px);
+    height: 100vh;
+    background-color: #FFFCE5;
+    margin-left: 280px;
+}
+
+.right-bar .nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: #AF834C;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu p {
+    margin: 0px 0px 5px;
+    font-size: 13px;
+    color: #777F87;
+}
+
+.nav-bar ul.dropdown-menu.show {
+    width: 280px;
+    height: 115px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.right-bar h3{
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-bar .positions-employee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-bar .positions-employee .button-positions {
+    margin: 20px 20px 0px 0px;
+}
+
+.right-bar .positions-employee .button-positions button {
+    background-color: #D3891F;
+    color: #fffffe;
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.right-bar .parent-positions{
+    padding: 20px;
+}
+
+.right-bar .parent-positions .table-positions{
+    background-color: #F4EFC6;
+    /* width: 1065px; */
+    height: 470px;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.right-bar .parent-positions .table-positions h3{
+    font-size: 18px;
+}
+
+.right-bar .parent-positions .table-positions .search-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0px;
+}
+
+.right-bar .parent-positions .table-positions .filter select{
+    outline: none;
+    cursor: pointer;
+    background-color: #af834c;
+    color: #fffffe;
+    padding: 0px 15px;
+    font-size: 14px;
+    border: none;
+}
+
+.right-bar .parent-positions .table-positions .filter span{
+    font-size: 14px;
+}
+
+
+.right-bar .parent-positions .table-positions .input-group input {
+    outline: none;
+    border: none;
+    /* border: 2px solid #D3891F; */
+    background-color: #af834c;
+    padding: 0px 10px;
+    font-size: 14px;
+    color: #fffffe;
+}
+
+.right-bar .parent-positions .table-positions .input-group input::placeholder{
+    color: #fffffe;
+
+}
+
+.right-bar .parent-positions .table-positions .input-group .fa{
+    color: #fffffe;    
+}
+    
+.right-bar .parent-positions .table-positions .input-group .input-group-text{
+    background-color: #af834c;
+    border: 2px solid #af834c;
+    border-right: 2px solid #fffffe;
+}
+
+.right-bar .parent-positions .table-positions .parent-table{
+    margin-top: 1.3rem;
+    padding: 0px 10px 20px 20px;
+    overflow-y: auto;
+    height: 390px;
+}
+
+.right-bar .parent-positions .table-positions .parent-table table thead{
+    background: none;
+    border: none;
+    background-color: #af834c;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.right-bar .parent-positions .table-positions .parent-table table thead th{
+     /* background-color: #af834c; */
+     border: none;
+     /* background-color: #D3891F; */
+     /* border: 2px solid #D3891F; */
+     text-align: center;
+     background: none;
+     color: #fffffe;
+     font-size: 15px;
+     font-weight: 600;
+}
+
+.right-bar .parent-positions .table-positions .parent-table table td{
+    background: none;
+    border-bottom: 1px solid #D3891F;
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.right-bar .parent-positions .table-positions .parent-table table td form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-bar .parent-positions .table-positions .parent-table table td form .dropdown button{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+.right-bar .parent-positions .table-positions .parent-table table td form .dropdown button:hover{
+    background-color: #F8F9FA;
+    color: #232323;
+}
+
+a.btn.btn-secondary.dropdown-toggle{
+    background: none;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #D3891F;
+    color: #fffffe;
+}
+
+button.dropdown-item{
+    font-size: 15px;
+}
+
+/* .right-bar .parent-employee .table-employee .parent-table table td form .dropdown button.dropdown-menu li button{
+    background: none;
+} */
+
+button.dropdown-menu{
+    background: none;
+}
+
+/* scroll bar */
+::-webkit-scrollbar{
+    width: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #D3891F;
+    border-radius: 7px;
+    cursor: pointer;
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@700&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+.right-bar{
+    width: calc(100% - 280px);
+    background-color: #FFFCE5;
+    margin-left: 280px;
+    padding-bottom: 20px;
+    height: 100vh;
+}
+
+.right-bar .nav-bar{
+    width: 100%;
+    height: 70px;
+    background-color: #AF834C;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu p {
+    margin: 0px 0px 5px;
+    font-size: 13px;
+    color: #777F87;
+}
+
+.nav-bar ul.dropdown-menu.show {
+    width: 280px;
+    height: 115px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.right-bar h3{
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-bar .payroll-box{
+    margin: 0px 20px 20px 20px;
+    background-color: #F4EFC6;
+    border: 1px solid rgba(0,0,0,0.1);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    padding: 20px;
+    height: 490px;
+    /* width: 1065px; */
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.right-bar .payroll-box h3{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 0px 0px 0px;
+}
+
+.right-bar .payroll-box .filter{
+    display: flex;
+    align-items: center;
+    margin: 14.4px 0px 0px;
+}
+
+.right-bar .payroll-box .filter form{
+    display: flex;
+    align-items: center;
+}
+
+.right-bar .payroll-box .filter h4{
+    margin: 0px 10px 0px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.right-bar .payroll-box .filter select{
+    margin: 0px 5px 0px 0px;
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    background: none;
+    /* border: 2px solid #D3891F; */
+    font-weight: normal;
+    font-size: 14px;
+    color: #fffffe;
+    background-color: #af834c;
+    cursor: pointer;
+}
+
+.right-bar .payroll-box .filter select option{
+    font-weight: normal;
+    cursor: pointer;
+    background-color: #fffffe;
+    color: #232323;
+}
+
+.right-bar .payroll-box .filter form button{
+    background-color: #D3891F;
+    color: #fffffe;
+    padding: 5px 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.right-bar .payroll-box .table-parent{
+    margin-top: 1.3rem;
+    height: 385px;
+    overflow-y: auto;
+    padding: 0px 20px 20px 0px;
+}
+
+.right-bar .payroll-box .table-parent table th{
+    background-color: #af834c;
+    color: #fffffe;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.right-bar .payroll-box .table-parent table td{
+    background: none;
+    border-bottom: 1px solid #D3891F;
+    text-align: center;
+    font-size: 15px;
+}
+
+a.btn.btn-secondary.dropdown-toggle{
+    background: none;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    background-color: #D3891F;
+    color: #fffffe;
+}
+
+button.dropdown-item{
+    font-size: 15px;
+}
+
+button.dropdown-menu{
+    background: none;
+}
+
+.right-bar ul.nav.nav-tabs{
+    padding: 20px 20px 0px 20px;
+}
+
+.right-bar button#payroll-logs.nav-link.active{
+    background-color: #F4EFC6;
+    color: #A5620E;
+}
+
+.right-bar button#new-pay.nav-link{
+    color: #A5620E;
+}
+
+.right-bar button#payroll-logs.nav-link{
+    color: #A5620E;
+}
+
+.right-bar button#new-pay.nav-link.active{
+    background-color: #F4EFC6;
+    color: #A5620E;
+}
+
+
+.right-bar .parent-new-earning{
+    display: flex;   
+}
+
+.right-bar .payroll-new-pay{
+    margin: 0px 20px 20px 20px;
+    padding: 20px;
+    /* width: 380px; */
+    height: 480px;
+    background-color: #F4EFC6;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.right-bar .parent-new-earning .payroll-new-pay h3{
+    padding: 0px 0px 0px;
+}
+
+.right-bar .parent-new-earning .payroll-new-pay form select{
+    width: 340px;
+    height: 38px;
+    background: none;
+    border: 2px solid #D3891F;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.right-bar .parent-new-earning .payroll-new-pay form input{
+    background: none;
+    border: 2px solid #D3891F;
+}
+
+.right-bar .parent-new-earning .payroll-new-pay form button{
+    background-color: #D3891F;
+    color: #fffffe;
+}
+
+.right-bar .earnings{
+    width: 670px;
+    height: 230px;
+    background-color: #F4EFC6;
+    border-radius: 5px;
+    border: 1px solid rgba(0,0,0,0.1);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.right-bar form .button{
+    display: flex;
+    justify-content: end;
+}
+
+.right-bar form .button button{
+    background-color: #D3891F;
+    color: #fffffe;
+}
+
+.right-bar .earnings .table-parent{
+    margin-top: 0.3rem;
+    padding: 10px 20px 20px 20px;
+}
+
+.right-bar .earnings .table-parent table tr{
+    background: none;
+}
+
+.right-bar .earnings .table-parent table th{
+    background: none;
+    border: 2px solid #D3891F;
+}
+
+.right-bar .earnings .table-parent table td{
+    background: none;
+    border: 2px solid #D3891F;
+}
+
+.right-bar .earnings .table-parent table.table{
+    margin: 0px 0px 0px;
+    /* height: 220px; */
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #D3891F;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+/* .right-bar .modal .modal-dialog .modal-content .modal-body form .row .col-lg-12 input{
+    border: 1px solid #D3891F;
+} */

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+SA:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Skranji:wght@700&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.right-bar {
+    width: calc(100% - 280px);
+    height: 100vh;
+    background-color: #FFFCE5;
+    margin-left: 280px;
+}
+
+.right-bar .nav-bar {
+    width: 100%;
+    height: 70px;
+    background-color: #AF834C;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.dropdown-menu p {
+    margin: 0px 0px 5px;
+    font-size: 13px;
+    color: #777F87;
+}
+
+.nav-bar ul.dropdown-menu.show {
+    width: 280px;
+    height: 115px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.right-bar .nav-bar .nav-logo .fa-bars {
+    color: white;
+    font-size: 23px;
+}
+
+.right-bar .nav-bar .nav-logo .dropdown button {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+.right-bar h3 {
+    padding: 20px 20px 0px 20px;
+    margin: 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-bar .modal .modal-content .modal-body form select {
+    width: 466px;
+    height: 40px;
+    outline: none;
+    background: none;
+    border: none;
+    border: 2px solid #D3891F;
+    padding: 0px 10px;
+}
+
+.right-bar .navbar-text-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-bar .navbar-text-button .navbar-button {
+    margin: 20px 20px 0px 0px;
+}
+
+.right-bar .navbar-text-button .navbar-button button {
+    background-color: #D3891F;
+    color: #fffffe;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.right-bar .parent-attendance-logs {
+    padding: 20px;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs {
+    background-color: #F4EFC6;
+    /* width: 1065px; */
+    height: 520px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 1px 2px #B0B0B0; */
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+}
+
+.right-bar .parent-attendance-logs .attendance-logs h3 {
+    font-size: 18px;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .filter {
+    display: flex;
+    align-items: center;
+    /* margin-top: 0.9rem; */
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .filter h4 {
+    margin: 0px 10px 0px 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .filter select {
+    margin: 0px 5px 0px 0px;
+    padding: 5px 5px;
+    outline: none;
+    border: none;
+    /* border: 2px solid #D3891F; */
+    background-color: #af834c;
+    font-weight: normal;
+    color: #fffffe;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .filter select option {
+    font-weight: normal;
+    cursor: pointer;
+    background-color: #fffffe;
+    color: #232323;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .filter form button {
+    background-color: #D3891F;
+    color: #fffffe;
+    padding: 5px 20px;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent {
+    margin-top: 1.3rem;
+    padding: 0px 20px 20px 20px;
+    height: 405px;
+    overflow-y: auto;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent table thead {
+    background-color: #af834c;
+    position: sticky;
+    top: 0;
+    border: none;
+    z-index: 1;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent table tr {
+    background: none;
+    border: none;
+    color: #fffffe;
+}
+
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent table th {
+    background: none;
+    font-size: 15px;
+    color: #fffffe;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent table tbody tr {
+    background: none;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent table td {
+    background: none;
+    border-bottom: 1px solid #af834c;
+    text-align: center;
+    font-size: 15px;
+}
+
+.right-bar .parent-attendance-logs .attendance-logs .table-parent table tbody td form a {
+    background-color: #D3891F;
+    color: #fffffe;
+    padding: 5px 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.dropdown button {
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #D3891F;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.filter-totalhrs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.9rem;
+}
+
+/* .filter-totalhrs .totalhours{
+    margin: 14.4px 0px 0px;
+} */
